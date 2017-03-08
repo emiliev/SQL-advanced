@@ -1,0 +1,7 @@
+/* Creates view o.O*/
+CREATE VIEW COMPANY_VIEW AS
+SELECT ID, NAME, AGE
+FROM  COMPANY;
+
+/*Delete view*/
+DROP VIEW COMPANY_VIEW;
